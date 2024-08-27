@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background color for the entire page */
+  }
+  
+  /* Container for centering content */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1D4ED8; /* Primary background color */
+    color: #FFFFFF; /* Text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+    background-color: #FFFFFF; /* White background for main content area */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #1D4ED8; /* Primary background color */
+    color: #FFFFFF; /* Text color */
+    padding: 10px;
+    text-align: center;
+    font-size: 0.875rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Utility Classes */
+  .mt-2 {
+    margin-top: 10px;
+  }
+  
+  .mb-2 {
+    margin-bottom: 10px;
+  }
+  
+  .pt-2 {
+    padding-top: 10px;
+  }
+  
+  .pb-2 {
+    padding-bottom: 10px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Alert Styles */
+  .alert {
+    background-color: #FEF3C7;
+    border-left: 4px solid #F59E0B;
+    color: #92400E;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .alert-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .alert-description {
+    font-size: 0.875rem;
+  }
+  
+  /* Progress Bar Styles */
+  .progress-bar {
+    width: 100%;
+    background-color: #E5E7EB;
+    border-radius: 5px;
+    height: 10px;
+  }
+  
+  .progress-bar-fill {
+    background-color: #2563EB;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+    
+    header h1 {
+      font-size: 1.5rem;
+    }
+    
+    footer {
+      font-size: 0.75rem;
+    }
+  }
+  
